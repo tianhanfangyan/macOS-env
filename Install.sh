@@ -98,9 +98,12 @@ function end() {
 
 }
 
+function main() {
+    InstallHomebrew
+    InstallOhMyZsh
+    InstallOhMyTmux
+    InstallPyenv
+    end
+}
 
-InstallHomebrew
-InstallOhMyZsh
-InstallOhMyTmux
-InstallPyenv
-end
+main
